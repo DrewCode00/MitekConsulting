@@ -1,0 +1,424 @@
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_003{font-family:Arial,serif;font-size:24.5px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_003{font-family:Arial,serif;font-size:24.5px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_004{font-family:Arial,serif;font-size:34.5px;color:rgb(22,119,139);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_004{font-family:Arial,serif;font-size:34.5px;color:rgb(22,119,139);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_005{font-family:Times,serif;font-size:12.1px;color:rgb(30,118,139);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_005{font-family:Times,serif;font-size:12.1px;color:rgb(30,118,139);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_006{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_006{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_007{font-family:Arial,serif;font-size:29.2px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_007{font-family:Arial,serif;font-size:29.2px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_008{font-family:Arial,serif;font-size:19.0px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_008{font-family:Arial,serif;font-size:19.0px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_009{font-family:Arial,serif;font-size:21.1px;color:rgb(22,119,140);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_009{font-family:Arial,serif;font-size:21.1px;color:rgb(22,119,140);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_010{font-family:Arial,serif;font-size:21.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_010{font-family:Arial,serif;font-size:21.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_012{font-family:Arial,serif;font-size:12.1px;color:rgb(22,119,140);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_012{font-family:Arial,serif;font-size:12.1px;color:rgb(22,119,140);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_011{font-family:Arial,serif;font-size:40.0px;color:rgb(22,119,140);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_011{font-family:Arial,serif;font-size:40.0px;color:rgb(22,119,140);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_015{font-family:Arial,serif;font-size:29.9px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_015{font-family:Arial,serif;font-size:29.9px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_016{font-family:Arial,serif;font-size:29.9px;color:rgb(0,158,227);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_016{font-family:Arial,serif;font-size:29.9px;color:rgb(0,158,227);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_013{font-family:Arial,serif;font-size:13.1px;color:rgb(22,119,140);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_013{font-family:Arial,serif;font-size:13.1px;color:rgb(22,119,140);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_014{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_014{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_002{font-family:"Book Antiqua",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_002{font-family:"Book Antiqua",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_018{font-family:Arial,serif;font-size:33.0px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_018{font-family:Arial,serif;font-size:33.0px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_019{font-family:Arial,serif;font-size:33.0px;color:rgb(0,158,227);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_019{font-family:Arial,serif;font-size:33.0px;color:rgb(0,158,227);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_017{font-family:Arial,serif;font-size:14.1px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_017{font-family:Arial,serif;font-size:14.1px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_022{font-family:Arial,serif;font-size:19.1px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_022{font-family:Arial,serif;font-size:19.1px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_020{font-family:Arial,serif;font-size:15.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_020{font-family:Arial,serif;font-size:15.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_021{font-family:Arial,serif;font-size:15.1px;color:rgb(22,119,140);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_021{font-family:Arial,serif;font-size:15.1px;color:rgb(22,119,140);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_023{font-family:Arial,serif;font-size:39.0px;color:rgb(108,201,243);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_023{font-family:Arial,serif;font-size:39.0px;color:rgb(108,201,243);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_024{font-family:Arial,serif;font-size:39.0px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_024{font-family:Arial,serif;font-size:39.0px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_025{font-family:Arial,serif;font-size:16.1px;color:rgb(108,201,243);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_025{font-family:Arial,serif;font-size:16.1px;color:rgb(108,201,243);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_026{font-family:Arial,serif;font-size:32.3px;color:rgb(108,201,243);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_026{font-family:Arial,serif;font-size:32.3px;color:rgb(108,201,243);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_027{font-family:Arial,serif;font-size:32.3px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_027{font-family:Arial,serif;font-size:32.3px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_028{font-family:Arial,serif;font-size:11.1px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_028{font-family:Arial,serif;font-size:11.1px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="508cf718-ac89-11ea-8b25-0cc47a792c0a_id_508cf718-ac89-11ea-8b25-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-297px;top:0px;width:595px;height:595px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="508cf718-ac89-11ea-8b25-0cc47a792c0a_id_508cf718-ac89-11ea-8b25-0cc47a792c0a_files/background01.jpg" width=595 height=595></div>
+<div style="position:absolute;left:328.96px;top:524.64px" class="cls_003"><span class="cls_003">Company Profile</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:605px;width:1190px;height:595px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="508cf718-ac89-11ea-8b25-0cc47a792c0a_id_508cf718-ac89-11ea-8b25-0cc47a792c0a_files/background02.jpg" width=1190 height=595></div>
+<div style="position:absolute;left:697.89px;top:156.33px" class="cls_004"><span class="cls_004">INTRODUCTION</span></div>
+<div style="position:absolute;left:700.02px;top:210.28px" class="cls_005"><span class="cls_005">MItek Consulting Ltd. (MItek) is a Kampala-based consulting</span></div>
+<div style="position:absolute;left:700.02px;top:225.49px" class="cls_005"><span class="cls_005">engineering firm providing competitive geotechnical and water</span></div>
+<div style="position:absolute;left:700.02px;top:240.69px" class="cls_005"><span class="cls_005">engineering solutions, products and construction services for</span></div>
+<div style="position:absolute;left:700.02px;top:255.90px" class="cls_005"><span class="cls_005">municipal and private industries throughout Uganda.</span></div>
+<div style="position:absolute;left:700.02px;top:287.28px" class="cls_006"><span class="cls_006">Major services include;</span></div>
+<div style="position:absolute;left:728.36px;top:302.49px" class="cls_006"><span class="cls_006">• Geotechnical engineering,</span></div>
+<div style="position:absolute;left:728.36px;top:317.69px" class="cls_006"><span class="cls_006">• Water and Wastewater engineering,</span></div>
+<div style="position:absolute;left:728.36px;top:332.89px" class="cls_006"><span class="cls_006">• Water resources engineering</span></div>
+<div style="position:absolute;left:728.36px;top:348.09px" class="cls_006"><span class="cls_006">• Structural Consulting/Design.</span></div>
+<div style="position:absolute;left:728.36px;top:363.29px" class="cls_006"><span class="cls_006">• Supply of Engineering Equipment and Construction Materials</span></div>
+<div style="position:absolute;left:728.36px;top:378.50px" class="cls_006"><span class="cls_006">• Structural Renovation designs and Refurbishment of Housing</span></div>
+<div style="position:absolute;left:734.96px;top:393.70px" class="cls_006"><span class="cls_006">facilities.</span></div>
+<div style="position:absolute;left:700.02px;top:424.10px" class="cls_006"><span class="cls_006">At MItek, our mandate is to provide exceptional client experiences, while</span></div>
+<div style="position:absolute;left:700.02px;top:439.30px" class="cls_006"><span class="cls_006">delivering innovative expert solutions. Concentrating on our clientele’s</span></div>
+<div style="position:absolute;left:700.02px;top:454.51px" class="cls_006"><span class="cls_006">requirements, satisfaction and concerns, allows us to develop customized</span></div>
+<div style="position:absolute;left:141.82px;top:445.73px" class="cls_007"><span class="cls_007">MItek Consulting Ltd.</span></div>
+<div style="position:absolute;left:700.02px;top:469.71px" class="cls_006"><span class="cls_006">management and execution plans to suit our clients’ individual tastes.</span></div>
+<div style="position:absolute;left:145.65px;top:483.30px" class="cls_008"><span class="cls_008">Innovative Engineering Solutions</span></div>
+<div style="position:absolute;left:700.02px;top:500.11px" class="cls_006"><span class="cls_006">MItek partners with qualified consultants, sub-contractors, developers,</span></div>
+<div style="position:absolute;left:700.02px;top:515.31px" class="cls_006"><span class="cls_006">design professionals, government agencies, contractors and government,</span></div>
+<div style="position:absolute;left:700.02px;top:530.52px" class="cls_006"><span class="cls_006">to ensure excellent and efficient completion of all projects.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:1210px;width:1190px;height:595px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="508cf718-ac89-11ea-8b25-0cc47a792c0a_id_508cf718-ac89-11ea-8b25-0cc47a792c0a_files/background03.jpg" width=1190 height=595></div>
+<div style="position:absolute;left:212.60px;top:52.22px" class="cls_009"><span class="cls_009">About</span></div>
+<div style="position:absolute;left:651.97px;top:52.22px" class="cls_009"><span class="cls_009">Vision </span><span class="cls_010">and</span><span class="cls_009"> Mission</span></div>
+<div style="position:absolute;left:212.60px;top:85.83px" class="cls_006"><span class="cls_006">MItek Consulting Ltd. is an employee-owned, professional</span></div>
+<div style="position:absolute;left:651.97px;top:86.11px" class="cls_006"><span class="cls_006">Our vision is to provide expert consulting engineering services and become the</span></div>
+<div style="position:absolute;left:212.60px;top:101.03px" class="cls_006"><span class="cls_006">engineering consulting firm with offices in Kampala, Uganda.</span></div>
+<div style="position:absolute;left:651.97px;top:101.31px" class="cls_006"><span class="cls_006">engineering firm of choice for all the sectors we serve, across Uganda, by:</span></div>
+<div style="position:absolute;left:212.60px;top:116.24px" class="cls_006"><span class="cls_006">Established in 2019, with world-class expertise, commitment</span></div>
+<div style="position:absolute;left:680.32px;top:116.51px" class="cls_006"><span class="cls_006">• Delivering exceptional geotechnical, water and wastewater engineering</span></div>
+<div style="position:absolute;left:212.60px;top:131.44px" class="cls_006"><span class="cls_006">to exceptional quality, unrivalled service and a focus on</span></div>
+<div style="position:absolute;left:686.92px;top:131.71px" class="cls_006"><span class="cls_006">services,</span></div>
+<div style="position:absolute;left:212.60px;top:146.64px" class="cls_006"><span class="cls_006">maintaining strong client relationships.</span></div>
+<div style="position:absolute;left:680.32px;top:146.91px" class="cls_006"><span class="cls_006">• Offering an exemplary client experience,</span></div>
+<div style="position:absolute;left:680.32px;top:162.12px" class="cls_006"><span class="cls_006">• Being honest and forthright in all we do,</span></div>
+<div style="position:absolute;left:212.60px;top:177.05px" class="cls_006"><span class="cls_006">MItek’s core leadership team comprises of two professional</span></div>
+<div style="position:absolute;left:680.32px;top:177.32px" class="cls_006"><span class="cls_006">• Having a work environment in which our employees flourish, and</span></div>
+<div style="position:absolute;left:212.60px;top:192.25px" class="cls_006"><span class="cls_006">engineers with more than 20 years of exceptional engineering</span></div>
+<div style="position:absolute;left:680.32px;top:192.52px" class="cls_006"><span class="cls_006">• Growing our business, in a sustained and profitable manner.</span></div>
+<div style="position:absolute;left:212.60px;top:207.45px" class="cls_006"><span class="cls_006">experience and two administrative managers with more than</span></div>
+<div style="position:absolute;left:212.60px;top:222.65px" class="cls_006"><span class="cls_006">25 years in regulatory, policy and project management.</span></div>
+<div style="position:absolute;left:651.97px;top:222.92px" class="cls_006"><span class="cls_006">Our mission is to ensure client success and satisfaction, by providing excellent</span></div>
+<div style="position:absolute;left:651.97px;top:238.13px" class="cls_006"><span class="cls_006">innovative engineering services with a high level of integrity.</span></div>
+<div style="position:absolute;left:212.60px;top:253.06px" class="cls_006"><span class="cls_006">MItek’s clientele benefits from the flexibility and efficiency of</span></div>
+<div style="position:absolute;left:212.60px;top:268.26px" class="cls_006"><span class="cls_006">having a complete integral in-house engineering team with</span></div>
+<div style="position:absolute;left:212.60px;top:283.46px" class="cls_006"><span class="cls_006">diverse experience in the geotechnical, materials, water and</span></div>
+<div style="position:absolute;left:853.95px;top:284.67px" class="cls_010"><span class="cls_010">Cor</span><span class="cls_009">e Values</span></div>
+<div style="position:absolute;left:212.60px;top:298.66px" class="cls_006"><span class="cls_006">wastewater sectors.</span></div>
+<div style="position:absolute;left:855.36px;top:318.13px" class="cls_006"><span class="cls_006">Above all MItek is committed to personalized</span></div>
+<div style="position:absolute;left:212.60px;top:329.07px" class="cls_006"><span class="cls_006">The  small  business  approach  allows  MItek,  to  provide</span></div>
+<div style="position:absolute;left:855.36px;top:333.33px" class="cls_006"><span class="cls_006">client support and its mission to provide</span></div>
+<div style="position:absolute;left:212.60px;top:344.27px" class="cls_006"><span class="cls_006">contemporary engineering experiences, by offering innovative</span></div>
+<div style="position:absolute;left:855.36px;top:348.53px" class="cls_006"><span class="cls_006">quality service through open collaboration</span></div>
+<div style="position:absolute;left:212.60px;top:359.47px" class="cls_006"><span class="cls_006">solutions that effectively suit specified requirements.</span></div>
+<div style="position:absolute;left:855.36px;top:363.74px" class="cls_006"><span class="cls_006">and   communication,   which   allow   for</span></div>
+<div style="position:absolute;left:855.36px;top:378.94px" class="cls_006"><span class="cls_006">innovative,   practical   and   cost-effective</span></div>
+<div style="position:absolute;left:855.36px;top:394.14px" class="cls_006"><span class="cls_006">solutions.</span></div>
+<div style="position:absolute;left:212.60px;top:400.88px" class="cls_010"><span class="cls_010">Basic</span><span class="cls_009"> Info</span></div>
+<div style="position:absolute;left:855.36px;top:424.54px" class="cls_006"><span class="cls_006">Guided by our core values of Innovation,</span></div>
+<div style="position:absolute;left:216.60px;top:436.36px" class="cls_006"><span class="cls_006">Business Name</span></div>
+<div style="position:absolute;left:357.55px;top:436.36px" class="cls_006"><span class="cls_006">MItek CONSULTING LTD</span></div>
+<div style="position:absolute;left:855.36px;top:439.75px" class="cls_006"><span class="cls_006">Excellence and Integrity, at MItek we are</span></div>
+<div style="position:absolute;left:855.36px;top:454.95px" class="cls_006"><span class="cls_006">dedicated to client success, committed to</span></div>
+<div style="position:absolute;left:216.60px;top:458.25px" class="cls_006"><span class="cls_006">Company status</span></div>
+<div style="position:absolute;left:357.55px;top:458.25px" class="cls_006"><span class="cls_006">LLC</span></div>
+<div style="position:absolute;left:730.63px;top:459.92px" class="cls_012"><span class="cls_012">Innovate,</span></div>
+<div style="position:absolute;left:855.36px;top:470.15px" class="cls_006"><span class="cls_006">providing a work environment with a high</span></div>
+<div style="position:absolute;left:216.60px;top:477.49px" class="cls_006"><span class="cls_006">Country of Incorporation</span></div>
+<div style="position:absolute;left:357.55px;top:477.49px" class="cls_006"><span class="cls_006">Uganda</span></div>
+<div style="position:absolute;left:730.63px;top:477.12px" class="cls_012"><span class="cls_012">Excel,</span></div>
+<div style="position:absolute;left:650.32px;top:457.31px" class="cls_011"><span class="cls_011">We</span></div>
+<div style="position:absolute;left:855.36px;top:485.35px" class="cls_006"><span class="cls_006">level of employee satisfaction and manage</span></div>
+<div style="position:absolute;left:730.63px;top:494.31px" class="cls_012"><span class="cls_012">work with Integrity.</span></div>
+<div style="position:absolute;left:855.36px;top:500.56px" class="cls_006"><span class="cls_006">our   company,   to   optimize   growth   and</span></div>
+<div style="position:absolute;left:216.60px;top:503.11px" class="cls_006"><span class="cls_006">Company Address</span></div>
+<div style="position:absolute;left:357.55px;top:503.11px" class="cls_006"><span class="cls_006">P.O Box 36801, Off Kanjokya street,</span></div>
+<div style="position:absolute;left:855.36px;top:515.76px" class="cls_006"><span class="cls_006">profitability.</span></div>
+<div style="position:absolute;left:357.55px;top:518.31px" class="cls_006"><span class="cls_006">Kamwokya, Kampala, Uganda</span></div>
+<div style="position:absolute;left:216.60px;top:535.11px" class="cls_006"><span class="cls_006">Banker</span></div>
+<div style="position:absolute;left:357.55px;top:535.11px" class="cls_006"><span class="cls_006">ABSA BANK</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:1815px;width:1190px;height:595px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="508cf718-ac89-11ea-8b25-0cc47a792c0a_id_508cf718-ac89-11ea-8b25-0cc47a792c0a_files/background04.jpg" width=1190 height=595></div>
+<div style="position:absolute;left:120.47px;top:69.42px" class="cls_006"><span class="cls_006">Innovation</span></div>
+<div style="position:absolute;left:651.97px;top:50.44px" class="cls_015"><span class="cls_015">Our </span><span class="cls_016">CORE</span><span class="cls_015"> Team</span></div>
+<div style="position:absolute;left:120.47px;top:84.62px" class="cls_006"><span class="cls_006">We create and deliver. MItek likes to come up with creative ideas when working</span></div>
+<div style="position:absolute;left:120.47px;top:99.82px" class="cls_006"><span class="cls_006">on projects. Bring any project to us and we’ll do the required research, to find</span></div>
+<div style="position:absolute;left:120.47px;top:115.02px" class="cls_006"><span class="cls_006">a way in which to get it done.</span></div>
+<div style="position:absolute;left:651.97px;top:105.44px" class="cls_010"><span class="cls_010">The Engineering </span><span class="cls_009">Team</span></div>
+<div style="position:absolute;left:676.28px;top:140.27px" class="cls_013"><span class="cls_013">Michael Atukunda</span><span class="cls_014">, R. Eng</span></div>
+<div style="position:absolute;left:120.47px;top:145.43px" class="cls_006"><span class="cls_006">Excellence</span></div>
+<div style="position:absolute;left:120.47px;top:160.63px" class="cls_006"><span class="cls_006">We aim high, provide superior quality and own it. At Mitek, we are proud of</span></div>
+<div style="position:absolute;left:703.70px;top:160.28px" class="cls_006"><span class="cls_006">A Geotechnical Professional Engineer (R. Eng) in Kampala, Uganda, Michael</span></div>
+<div style="position:absolute;left:120.47px;top:175.83px" class="cls_006"><span class="cls_006">what we accomplish and are enthusiastic about what we do. We are relentlessly</span></div>
+<div style="position:absolute;left:703.70px;top:175.48px" class="cls_006"><span class="cls_006">received his Geotechnical Engineering degree (M.Sc.) from the University of</span></div>
+<div style="position:absolute;left:120.47px;top:191.03px" class="cls_006"><span class="cls_006">driven to produce exceptional service and value in all aspects of our work.</span></div>
+<div style="position:absolute;left:703.70px;top:190.68px" class="cls_006"><span class="cls_006">Hannover, Germany and earned his R. Eng designation from the Engineer’s</span></div>
+<div style="position:absolute;left:703.70px;top:205.89px" class="cls_006"><span class="cls_006">Registration Board of Uganda. (ERB No.941) Michael is also a corporate member</span></div>
+<div style="position:absolute;left:120.47px;top:221.44px" class="cls_006"><span class="cls_006">Integrity</span></div>
+<div style="position:absolute;left:703.70px;top:221.09px" class="cls_006"><span class="cls_006">of the institution of professional engineers in Uganda, MUIPE. (PE:\1039)</span></div>
+<div style="position:absolute;left:120.47px;top:236.64px" class="cls_006"><span class="cls_006">We do the right thing. MItek holds honesty in the highest regard and ensures</span></div>
+<div style="position:absolute;left:120.47px;top:251.84px" class="cls_006"><span class="cls_006">complete transparency, in all its dealings. Our employees adhere to the</span></div>
+<div style="position:absolute;left:703.70px;top:251.49px" class="cls_006"><span class="cls_006">Michael has worked as a consulting and project engineer for over 12 years,</span></div>
+<div style="position:absolute;left:120.47px;top:267.04px" class="cls_006"><span class="cls_006">professional code of ethical conduct and our clients are treated as family.</span></div>
+<div style="position:absolute;left:703.70px;top:266.69px" class="cls_006"><span class="cls_006">specialising in geotechnical engineering, particularly in the aspects of ground</span></div>
+<div style="position:absolute;left:703.70px;top:281.90px" class="cls_006"><span class="cls_006">investigations, soil and rock mechanics, slope stability design using GeoStudio</span></div>
+<div style="position:absolute;left:703.70px;top:297.10px" class="cls_006"><span class="cls_006">(Slope/W) software and ground and earthworks modelling using Leapfrog works</span></div>
+<div style="position:absolute;left:703.70px;top:312.30px" class="cls_006"><span class="cls_006">and Soil works software.</span></div>
+<div style="position:absolute;left:56.69px;top:314.42px" class="cls_010"><span class="cls_010">The</span><span class="cls_009"> Founders</span></div>
+<div style="position:absolute;left:703.70px;top:342.70px" class="cls_006"><span class="cls_006">A geotechnical engineer who is willing to offer his engineering services for the</span></div>
+<div style="position:absolute;left:120.47px;top:350.44px" class="cls_006"><span class="cls_006">MItek Consulting Ltd. was founded in 2019, by two families, who felt there was</span></div>
+<div style="position:absolute;left:703.70px;top:357.91px" class="cls_006"><span class="cls_006">purpose of a well-organized built environment with an attention to detail and</span></div>
+<div style="position:absolute;left:120.47px;top:365.64px" class="cls_006"><span class="cls_006">a lack of dedicated expert consulting engineering services, in Uganda, within</span></div>
+<div style="position:absolute;left:703.70px;top:373.11px" class="cls_006"><span class="cls_006">perfection in solving challenges in the geotechnical engineering discipline defines</span></div>
+<div style="position:absolute;left:120.47px;top:380.84px" class="cls_006"><span class="cls_006">their respective fields.</span></div>
+<div style="position:absolute;left:703.70px;top:388.31px" class="cls_006"><span class="cls_006">Michael’s abilities. In solving challenges, he is involved in research from time to</span></div>
+<div style="position:absolute;left:703.70px;top:403.51px" class="cls_006"><span class="cls_006">time at Makerere University where he tutors future geotechnical engineers to</span></div>
+<div style="position:absolute;left:120.47px;top:411.25px" class="cls_006"><span class="cls_006">Relying on the proficient skills, knowledge and varied experiences of its founders</span></div>
+<div style="position:absolute;left:703.70px;top:418.71px" class="cls_006"><span class="cls_006">innovate solutions to perturbing geotechnical challenges.</span></div>
+<div style="position:absolute;left:120.47px;top:426.45px" class="cls_006"><span class="cls_006">and employees, MItek collaborates with qualified firms, to deliver proficient and</span></div>
+<div style="position:absolute;left:120.47px;top:441.65px" class="cls_006"><span class="cls_006">efficient services in geotechnical, water and wastewater engineering, design</span></div>
+<div style="position:absolute;left:677.08px;top:445.21px" class="cls_013"><span class="cls_013">Ivan Kagoro,</span><span class="cls_014"> P. Eng</span></div>
+<div style="position:absolute;left:120.47px;top:456.85px" class="cls_006"><span class="cls_006">and renovations.</span></div>
+<div style="position:absolute;left:703.70px;top:470.70px" class="cls_006"><span class="cls_006">A Professional Engineer (P. Eng) in Edmonton, AB Canada, Ivan received his</span></div>
+<div style="position:absolute;left:120.47px;top:487.26px" class="cls_006"><span class="cls_006">With half of its founders trained and working in Canada, MItek has a broader</span></div>
+<div style="position:absolute;left:703.70px;top:485.90px" class="cls_006"><span class="cls_006">Civil Engineering degree from the University of British Columbia, BC Canada and</span></div>
+<div style="position:absolute;left:120.47px;top:502.46px" class="cls_006"><span class="cls_006">horizon and levies its North American experience, to provide fresh new</span></div>
+<div style="position:absolute;left:703.70px;top:501.10px" class="cls_006"><span class="cls_006">earned his P. Eng designation from the Association of Professional Engineers</span></div>
+<div style="position:absolute;left:120.47px;top:517.66px" class="cls_006"><span class="cls_006">perspectives and innovative ideas in delivering solutions.</span></div>
+<div style="position:absolute;left:703.70px;top:516.31px" class="cls_006"><span class="cls_006">and Geoscientists of Alberta (APEGA), in Canada.</span></div>
+<div style="position:absolute;left:53.23px;top:535.35px" class="cls_002"><span class="cls_002">6</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:2420px;width:1190px;height:595px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="508cf718-ac89-11ea-8b25-0cc47a792c0a_id_508cf718-ac89-11ea-8b25-0cc47a792c0a_files/background05.jpg" width=1190 height=595></div>
+<div style="position:absolute;left:108.43px;top:54.25px" class="cls_006"><span class="cls_006">Ivan has worked as a Consulting and Project Engineer for over 10 years, specialising</span></div>
+<div style="position:absolute;left:704.41px;top:54.22px" class="cls_006"><span class="cls_006">A passionate professional that uses her knowledge to create that much-needed</span></div>
+<div style="position:absolute;left:108.43px;top:69.45px" class="cls_006"><span class="cls_006">in the design of water and waste water systems, across Alberta, Canada.</span></div>
+<div style="position:absolute;left:704.41px;top:69.42px" class="cls_006"><span class="cls_006">difference and innovation each organisation looks for, leading to that much</span></div>
+<div style="position:absolute;left:704.41px;top:84.62px" class="cls_006"><span class="cls_006">needed change; “continuous innovation and improvement is what I seek”</span></div>
+<div style="position:absolute;left:108.43px;top:99.86px" class="cls_006"><span class="cls_006">A passionate problem solver, who enjoys tackling challenges, Ivan is motivated</span></div>
+<div style="position:absolute;left:108.43px;top:115.06px" class="cls_006"><span class="cls_006">by the desire to find engineering solutions to everyday problems. His energetic</span></div>
+<div style="position:absolute;left:108.43px;top:130.26px" class="cls_006"><span class="cls_006">personality, hard work and inquisitive mind have driven him to succeed within his</span></div>
+<div style="position:absolute;left:108.43px;top:145.46px" class="cls_006"><span class="cls_006">engineering profession, in Canada and earned him the respect of his colleagues.</span></div>
+<div style="position:absolute;left:651.97px;top:151.75px" class="cls_010"><span class="cls_010">The Organization </span><span class="cls_009">Structure</span></div>
+<div style="position:absolute;left:56.69px;top:177.65px" class="cls_010"><span class="cls_010">The Administration & Management </span><span class="cls_009">Team</span></div>
+<div style="position:absolute;left:82.20px;top:217.38px" class="cls_013"><span class="cls_013">Maria Nansereko Kagoro</span></div>
+<div style="position:absolute;left:108.43px;top:240.03px" class="cls_006"><span class="cls_006">An Executive Assistant, in Edmonton, AB, Canada, Maria received her degree</span></div>
+<div style="position:absolute;left:108.43px;top:255.23px" class="cls_006"><span class="cls_006">in English and Professional Writing (Institutional Communication) from York</span></div>
+<div style="position:absolute;left:108.43px;top:270.43px" class="cls_006"><span class="cls_006">University, Toronto, ON Canada.</span></div>
+<div style="position:absolute;left:108.43px;top:300.84px" class="cls_006"><span class="cls_006">Her education allowed her to explore different industries working primarily with</span></div>
+<div style="position:absolute;left:108.43px;top:316.04px" class="cls_006"><span class="cls_006">regulations, policy and project development and management. With more than</span></div>
+<div style="position:absolute;left:108.43px;top:331.24px" class="cls_006"><span class="cls_006">12 years in administration, policy and project management, Maria thrives on</span></div>
+<div style="position:absolute;left:108.43px;top:346.44px" class="cls_006"><span class="cls_006">ensuring that companies succeed in achieving their mandatory objectives.</span></div>
+<div style="position:absolute;left:108.43px;top:361.65px" class="cls_006"><span class="cls_006">A critical and innovative thinker with a keen eye for detail, Maria’s skills and varied</span></div>
+<div style="position:absolute;left:108.43px;top:376.85px" class="cls_006"><span class="cls_006">experience are the driving forces behind her successful professional career.</span></div>
+<div style="position:absolute;left:82.20px;top:406.73px" class="cls_013"><span class="cls_013">Marie-Francesca Bazirake-Atukunda</span></div>
+<div style="position:absolute;left:108.43px;top:429.41px" class="cls_006"><span class="cls_006">A Finance and audit professional with expertise financial reporting, internal</span></div>
+<div style="position:absolute;left:108.43px;top:444.61px" class="cls_006"><span class="cls_006">controls review, risk management, corporate governance, fraud investigations</span></div>
+<div style="position:absolute;left:108.43px;top:459.81px" class="cls_006"><span class="cls_006">and information systems audit within a 10year’s working experience. Maria holds</span></div>
+<div style="position:absolute;left:108.43px;top:475.01px" class="cls_006"><span class="cls_006">a bachelor’s degree in International Business from Makerere University, is an</span></div>
+<div style="position:absolute;left:108.43px;top:490.22px" class="cls_006"><span class="cls_006">ACCA and CPA (U). Her expertise permeates various sectors of the economy</span></div>
+<div style="position:absolute;left:108.43px;top:505.42px" class="cls_006"><span class="cls_006">including financial services, retail, agriculture, medical and pharmaceuticals, oil</span></div>
+<div style="position:absolute;left:108.43px;top:520.62px" class="cls_006"><span class="cls_006">and gas, non-governmental organisations and not-for profit companies.</span></div>
+<div style="position:absolute;left:53.33px;top:535.35px" class="cls_002"><span class="cls_002">8</span></div>
+<div style="position:absolute;left:1129.98px;top:534.97px" class="cls_002"><span class="cls_002">9</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:3025px;width:1190px;height:595px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="508cf718-ac89-11ea-8b25-0cc47a792c0a_id_508cf718-ac89-11ea-8b25-0cc47a792c0a_files/background06.jpg" width=1190 height=595></div>
+<div style="position:absolute;left:739.29px;top:54.22px" class="cls_006"><span class="cls_006">cts span many different industries because our services benefit nearly</span></div>
+<div style="position:absolute;left:737.81px;top:69.42px" class="cls_006"><span class="cls_006">e of project. MItek has had the opportunity to work with many different</span></div>
+<div style="position:absolute;left:739.58px;top:84.62px" class="cls_006"><span class="cls_006">cluding governmental agencies and municipalities, energy and utility</span></div>
+<div style="position:absolute;left:736.77px;top:99.82px" class="cls_006"><span class="cls_006">, public and private institutions, architectural and engineering firms, and</span></div>
+<div style="position:absolute;left:735.43px;top:115.03px" class="cls_006"><span class="cls_006">ontractors.</span></div>
+<div style="position:absolute;left:733.94px;top:143.42px" class="cls_013"><span class="cls_013">s</span></div>
+<div style="position:absolute;left:735.12px;top:168.62px" class="cls_006"><span class="cls_006">geological, geotechnical and hydrogeological planning, consulting and site</span></div>
+<div style="position:absolute;left:733.63px;top:183.82px" class="cls_006"><span class="cls_006">on for infrastructure, wind power and hydropower projects, as follows;</span></div>
+<div style="position:absolute;left:736.74px;top:203.01px" class="cls_006"><span class="cls_006">velop geological, geotechnical and hydrogeological investigation</span></div>
+<div style="position:absolute;left:733.37px;top:218.22px" class="cls_006"><span class="cls_006">ogrammes</span></div>
+<div style="position:absolute;left:737.01px;top:233.42px" class="cls_006"><span class="cls_006">sign assessment and site supervision of geotechnical projects</span></div>
+<div style="position:absolute;left:737.03px;top:248.62px" class="cls_006"><span class="cls_006">ological and structural geological modelling</span></div>
+<div style="position:absolute;left:735.98px;top:263.82px" class="cls_006"><span class="cls_006">erpretation of geological, geotechnical and hydrogeological data</span></div>
+<div style="position:absolute;left:737.03px;top:279.02px" class="cls_006"><span class="cls_006">otechnical design of ground and rock slopes and foundations</span></div>
+<div style="position:absolute;left:737.03px;top:294.23px" class="cls_006"><span class="cls_006">otechnical expert opinions with a focus on soil and rock mechanics and</span></div>
+<div style="position:absolute;left:734.48px;top:309.43px" class="cls_006"><span class="cls_006">rification of stability for construction excavations</span></div>
+<div style="position:absolute;left:737.85px;top:324.63px" class="cls_006"><span class="cls_006">ological and geotechnical risk assessment and management</span></div>
+<div style="position:absolute;left:737.03px;top:339.83px" class="cls_006"><span class="cls_006">nsulting services and expert opinions on all aspects of geology,</span></div>
+<div style="position:absolute;left:735.67px;top:355.03px" class="cls_006"><span class="cls_006">otechnical engineering, construction operation and construction contracts</span></div>
+<div style="position:absolute;left:737.03px;top:370.24px" class="cls_006"><span class="cls_006">otechnical monitoring, design and interpretation of geotechnical</span></div>
+<div style="position:absolute;left:738.87px;top:385.44px" class="cls_006"><span class="cls_006">asurement</span></div>
+<div style="position:absolute;left:50.88px;top:374.91px" class="cls_018"><span class="cls_018">Geotechnical </span><span class="cls_019">Engineering</span></div>
+<div style="position:absolute;left:737.85px;top:400.64px" class="cls_006"><span class="cls_006">otechnical Reporting.</span></div>
+<div style="position:absolute;left:107.86px;top:424.96px" class="cls_017"><span class="cls_017">MItek has vast experience with the soil conditions, in Uganda</span></div>
+<div style="position:absolute;left:738.98px;top:425.84px" class="cls_006"><span class="cls_006">eres to the following geotechnical investigation procedures;</span></div>
+<div style="position:absolute;left:107.86px;top:444.15px" class="cls_017"><span class="cls_017">and Africa as a whole. We have worked with a variety of complex</span></div>
+<div style="position:absolute;left:739.18px;top:447.04px" class="cls_006"><span class="cls_006">ld Investigation and in-situ testing of soils/rocks</span></div>
+<div style="position:absolute;left:735.92px;top:462.24px" class="cls_006"><span class="cls_006">boratory Testing services of soils/rocks and construction materials</span></div>
+<div style="position:absolute;left:107.86px;top:463.34px" class="cls_017"><span class="cls_017">geologic and subsurface conditions throughout Uganda. Our</span></div>
+<div style="position:absolute;left:738.23px;top:477.44px" class="cls_006"><span class="cls_006">alysis and Interpretation of Geotechnical test results</span></div>
+<div style="position:absolute;left:107.86px;top:482.54px" class="cls_017"><span class="cls_017">experience has provided us with a great understanding of the</span></div>
+<div style="position:absolute;left:737.85px;top:492.64px" class="cls_006"><span class="cls_006">otechnical Design of Foundations for roads, buildings, dams, etc</span></div>
+<div style="position:absolute;left:107.86px;top:501.73px" class="cls_017"><span class="cls_017">impacts that variability in subsurface conditions can have on</span></div>
+<div style="position:absolute;left:737.85px;top:507.85px" class="cls_006"><span class="cls_006">otechnical Reporting.</span></div>
+<div style="position:absolute;left:107.86px;top:520.92px" class="cls_017"><span class="cls_017">design and construction.</span></div>
+<div style="position:absolute;left:1129.56px;top:534.97px" class="cls_002"><span class="cls_002">11</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:3630px;width:1190px;height:595px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="508cf718-ac89-11ea-8b25-0cc47a792c0a_id_508cf718-ac89-11ea-8b25-0cc47a792c0a_files/background07.jpg" width=1190 height=595></div>
+<div style="position:absolute;left:56.69px;top:53.82px" class="cls_013"><span class="cls_013">Our Geotechnical Experience</span></div>
+<div style="position:absolute;left:653.38px;top:46.33px" class="cls_022"><span class="cls_022">2</span></div>
+<div style="position:absolute;left:85.04px;top:86.22px" class="cls_006"><span class="cls_006">MItek offers geotechnical services at all stages of projects’ timelines and often works</span></div>
+<div style="position:absolute;left:1014.09px;top:87.11px" class="cls_006"><span class="cls_006">Geotechnical</span></div>
+<div style="position:absolute;left:85.04px;top:101.42px" class="cls_006"><span class="cls_006">with clients from project inception through construction, to completion. Working</span></div>
+<div style="position:absolute;left:1014.09px;top:102.31px" class="cls_006"><span class="cls_006">Investigations</span></div>
+<div style="position:absolute;left:85.04px;top:116.62px" class="cls_006"><span class="cls_006">with one firm that can provide all these geo-related services, not only saves our</span></div>
+<div style="position:absolute;left:1014.09px;top:117.51px" class="cls_006"><span class="cls_006">Project for</span></div>
+<div style="position:absolute;left:85.04px;top:131.82px" class="cls_006"><span class="cls_006">clients time and money, but also eliminates the administrative burden of having to</span></div>
+<div style="position:absolute;left:1014.09px;top:132.71px" class="cls_006"><span class="cls_006">Manyangwa</span></div>
+<div style="position:absolute;left:85.04px;top:147.02px" class="cls_006"><span class="cls_006">solicit different vendors for each service.</span></div>
+<div style="position:absolute;left:1014.09px;top:147.91px" class="cls_006"><span class="cls_006">Residential</span></div>
+<div style="position:absolute;left:1014.09px;top:163.12px" class="cls_006"><span class="cls_006">Apartments,</span></div>
+<div style="position:absolute;left:85.04px;top:177.43px" class="cls_006"><span class="cls_006">Consolidating all services with MItek, also allows for faster and easier information</span></div>
+<div style="position:absolute;left:1014.09px;top:178.32px" class="cls_006"><span class="cls_006">Gayaza: Uganda</span></div>
+<div style="position:absolute;left:85.04px;top:192.63px" class="cls_006"><span class="cls_006">sharing, which promotes more effective and efficient project management. Our</span></div>
+<div style="position:absolute;left:85.04px;top:207.83px" class="cls_006"><span class="cls_006">engineers and construction services managers have the experience to assist with</span></div>
+<div style="position:absolute;left:85.04px;top:223.04px" class="cls_006"><span class="cls_006">consultation of materials-related issues, at the construction site.</span></div>
+<div style="position:absolute;left:653.38px;top:226.54px" class="cls_022"><span class="cls_022">3</span></div>
+<div style="position:absolute;left:85.04px;top:253.44px" class="cls_006"><span class="cls_006">At MItek, engineers work regularly and closely with construction materials testing</span></div>
+<div style="position:absolute;left:85.04px;top:268.64px" class="cls_006"><span class="cls_006">staff and have practical construction-related experience, to address a variety of</span></div>
+<div style="position:absolute;left:85.04px;top:283.84px" class="cls_006"><span class="cls_006">geotechnical issues.</span></div>
+<div style="position:absolute;left:1014.09px;top:285.74px" class="cls_006"><span class="cls_006">Geotechnical</span></div>
+<div style="position:absolute;left:1014.09px;top:300.94px" class="cls_006"><span class="cls_006">Investigations</span></div>
+<div style="position:absolute;left:1014.09px;top:316.14px" class="cls_006"><span class="cls_006">for Wind Power</span></div>
+<div style="position:absolute;left:57.11px;top:319.17px" class="cls_020"><span class="cls_020">Recent</span><span class="cls_021"> Company Project References</span></div>
+<div style="position:absolute;left:1014.09px;top:331.34px" class="cls_006"><span class="cls_006">Turbines- Access</span></div>
+<div style="position:absolute;left:1014.09px;top:346.55px" class="cls_006"><span class="cls_006">Wind Power</span></div>
+<div style="position:absolute;left:1014.09px;top:361.75px" class="cls_006"><span class="cls_006">Project: Zambia</span></div>
+<div style="position:absolute;left:75.11px;top:366.65px" class="cls_022"><span class="cls_022">1</span></div>
+<div style="position:absolute;left:653.38px;top:408.17px" class="cls_022"><span class="cls_022">4</span></div>
+<div style="position:absolute;left:421.79px;top:448.23px" class="cls_006"><span class="cls_006">Geotechnical</span></div>
+<div style="position:absolute;left:421.79px;top:463.43px" class="cls_006"><span class="cls_006">Investigations</span></div>
+<div style="position:absolute;left:421.79px;top:478.64px" class="cls_006"><span class="cls_006">Project for Dolphin</span></div>
+<div style="position:absolute;left:1014.09px;top:481.40px" class="cls_006"><span class="cls_006">Geotechnical</span></div>
+<div style="position:absolute;left:421.79px;top:493.84px" class="cls_006"><span class="cls_006">Hotel, Arua:</span></div>
+<div style="position:absolute;left:1014.09px;top:496.60px" class="cls_006"><span class="cls_006">Investigations</span></div>
+<div style="position:absolute;left:421.79px;top:509.04px" class="cls_006"><span class="cls_006">Uganda</span></div>
+<div style="position:absolute;left:1014.09px;top:511.80px" class="cls_006"><span class="cls_006">Project for Phillip</span></div>
+<div style="position:absolute;left:1014.09px;top:527.00px" class="cls_006"><span class="cls_006">Omondi Stadium</span></div>
+<div style="position:absolute;left:51.37px;top:535.35px" class="cls_002"><span class="cls_002">12</span></div>
+<div style="position:absolute;left:1128.03px;top:534.97px" class="cls_002"><span class="cls_002">13</span></div>
+<div style="position:absolute;left:1014.09px;top:542.21px" class="cls_006"><span class="cls_006">(KCCA): Uganda</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:4235px;width:1190px;height:595px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="508cf718-ac89-11ea-8b25-0cc47a792c0a_id_508cf718-ac89-11ea-8b25-0cc47a792c0a_files/background08.jpg" width=1190 height=595></div>
+<div style="position:absolute;left:56.69px;top:347.07px" class="cls_023"><span class="cls_023">Water</span><span class="cls_024"> Engineering</span></div>
+<div style="position:absolute;left:123.17px;top:414.93px" class="cls_025"><span class="cls_025">Water Treatment and Distribution</span></div>
+<div style="position:absolute;left:123.17px;top:442.25px" class="cls_017"><span class="cls_017">MItek Consulting Ltd. has extensive experience in the</span></div>
+<div style="position:absolute;left:123.17px;top:461.44px" class="cls_017"><span class="cls_017">design and implementation of water treatment solutions</span></div>
+<div style="position:absolute;left:123.17px;top:480.63px" class="cls_017"><span class="cls_017">incorporating the latest technologies.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:4840px;width:1190px;height:595px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="508cf718-ac89-11ea-8b25-0cc47a792c0a_id_508cf718-ac89-11ea-8b25-0cc47a792c0a_files/background09.jpg" width=1190 height=595></div>
+<div style="position:absolute;left:88.58px;top:51.38px" class="cls_006"><span class="cls_006">Our team offers a broad spectrum of water treatment design services, to diverse</span></div>
+<div style="position:absolute;left:88.58px;top:66.58px" class="cls_006"><span class="cls_006">clientele; from small packaged systems to full-scale water treatment plants.</span></div>
+<div style="position:absolute;left:88.58px;top:96.99px" class="cls_006"><span class="cls_006">Storage reservoir and pumping system designs are also a key component of MItek’s</span></div>
+<div style="position:absolute;left:88.58px;top:112.19px" class="cls_006"><span class="cls_006">project experience. Our experience includes design of water storage and pumping</span></div>
+<div style="position:absolute;left:88.58px;top:127.39px" class="cls_006"><span class="cls_006">systems as well as linear infrastructure, supplying both small localized distribution</span></div>
+<div style="position:absolute;left:88.58px;top:142.59px" class="cls_006"><span class="cls_006">systems and large regional transmission networks.</span></div>
+<div style="position:absolute;left:88.55px;top:168.62px" class="cls_013"><span class="cls_013">Services</span></div>
+<div style="position:absolute;left:88.58px;top:190.31px" class="cls_006"><span class="cls_006">MItek offers the following Water Engineering services in the water treatment and</span></div>
+<div style="position:absolute;left:88.58px;top:205.51px" class="cls_006"><span class="cls_006">supply sectors:</span></div>
+<div style="position:absolute;left:173.62px;top:220.72px" class="cls_006"><span class="cls_006">• Studies/Assessments</span></div>
+<div style="position:absolute;left:173.62px;top:235.92px" class="cls_006"><span class="cls_006">• Raw Water Supply</span></div>
+<div style="position:absolute;left:196.58px;top:251.12px" class="cls_006"><span class="cls_006">o Groundwater development</span></div>
+<div style="position:absolute;left:196.58px;top:266.32px" class="cls_006"><span class="cls_006">o Surface water development</span></div>
+<div style="position:absolute;left:651.97px;top:255.35px" class="cls_026"><span class="cls_026">Wastewater </span><span class="cls_027">Engineering</span></div>
+<div style="position:absolute;left:173.62px;top:281.52px" class="cls_006"><span class="cls_006">• Water Treatment</span></div>
+<div style="position:absolute;left:196.58px;top:296.73px" class="cls_006"><span class="cls_006">o Oxidation</span></div>
+<div style="position:absolute;left:196.58px;top:311.93px" class="cls_006"><span class="cls_006">o Pre-Treatment Chemical Feed Systems</span></div>
+<div style="position:absolute;left:196.58px;top:327.13px" class="cls_006"><span class="cls_006">o Coagulation, Rapid Mix and Flocculation</span></div>
+<div style="position:absolute;left:752.60px;top:331.78px" class="cls_021"><span class="cls_021">Wastewater Collection, Treatment & Disposal</span></div>
+<div style="position:absolute;left:196.58px;top:342.33px" class="cls_006"><span class="cls_006">o Dissolved Air Floatation, and Solids Contact Clarification</span></div>
+<div style="position:absolute;left:196.58px;top:357.53px" class="cls_006"><span class="cls_006">o Slow Sand, Rapid Gravity Sand, Greensand, and Membrane</span></div>
+<div style="position:absolute;left:173.62px;top:372.74px" class="cls_006"><span class="cls_006">Filtration</span></div>
+<div style="position:absolute;left:196.58px;top:387.94px" class="cls_006"><span class="cls_006">o Stabilization</span></div>
+<div style="position:absolute;left:196.58px;top:403.14px" class="cls_006"><span class="cls_006">o Chlorination/Chloramination</span></div>
+<div style="position:absolute;left:196.58px;top:418.34px" class="cls_006"><span class="cls_006">o Residuals Management</span></div>
+<div style="position:absolute;left:173.62px;top:433.54px" class="cls_006"><span class="cls_006">• Water Supply Systems, including; distribution system modelling,</span></div>
+<div style="position:absolute;left:173.62px;top:448.75px" class="cls_006"><span class="cls_006">Water main relocation, Water transmission lines and Pumping systems</span></div>
+<div style="position:absolute;left:196.58px;top:463.95px" class="cls_006"><span class="cls_006">o Condition Assessments</span></div>
+<div style="position:absolute;left:196.58px;top:479.15px" class="cls_006"><span class="cls_006">o Hydraulics</span></div>
+<div style="position:absolute;left:752.60px;top:484.38px" class="cls_006"><span class="cls_006">Wastewater collection and conveyance projects are also a specialty of</span></div>
+<div style="position:absolute;left:196.58px;top:494.35px" class="cls_006"><span class="cls_006">o Transient Analysis</span></div>
+<div style="position:absolute;left:752.60px;top:499.58px" class="cls_006"><span class="cls_006">MItek, with expertise in collection system and lift station planning and</span></div>
+<div style="position:absolute;left:196.58px;top:509.55px" class="cls_006"><span class="cls_006">o Cost Estimating</span></div>
+<div style="position:absolute;left:752.60px;top:514.78px" class="cls_006"><span class="cls_006">design.</span></div>
+<div style="position:absolute;left:196.58px;top:524.76px" class="cls_006"><span class="cls_006">o Treated Water Storage Reservoir Design</span></div>
+<div style="position:absolute;left:51.08px;top:535.35px" class="cls_002"><span class="cls_002">1</span></div>
+<div style="position:absolute;left:196.58px;top:539.96px" class="cls_006"><span class="cls_006">o Concrete (Above/Below Ground)</span></div>
+<div style="position:absolute;left:196.58px;top:555.16px" class="cls_006"><span class="cls_006">o Above Ground, Bolted Steel</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:5445px;width:1190px;height:595px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="508cf718-ac89-11ea-8b25-0cc47a792c0a_id_508cf718-ac89-11ea-8b25-0cc47a792c0a_files/background10.jpg" width=1190 height=595></div>
+<div style="position:absolute;left:70.87px;top:61.78px" class="cls_021"><span class="cls_021">Services</span></div>
+<div style="position:absolute;left:100.63px;top:88.49px" class="cls_006"><span class="cls_006">MItek offers the following Wastewater Engineering services in the collection,</span></div>
+<div style="position:absolute;left:100.63px;top:103.69px" class="cls_006"><span class="cls_006">treatment and disposal:</span></div>
+<div style="position:absolute;left:128.98px;top:118.90px" class="cls_006"><span class="cls_006">• Feasibility Studies/Assessments</span></div>
+<div style="position:absolute;left:128.98px;top:134.10px" class="cls_006"><span class="cls_006">• Wastewater Treatment and Disposal</span></div>
+<div style="position:absolute;left:157.32px;top:149.30px" class="cls_006"><span class="cls_006">o Treatment Systems</span></div>
+<div style="position:absolute;left:157.32px;top:164.50px" class="cls_006"><span class="cls_006">o Solids Management (Thickening and Dewatering)</span></div>
+<div style="position:absolute;left:157.32px;top:179.71px" class="cls_006"><span class="cls_006">o Effluent Disposal Systems such as Irrigation, Wetlands, Direct</span></div>
+<div style="position:absolute;left:167.22px;top:194.91px" class="cls_006"><span class="cls_006">Discharge, Evaporation</span></div>
+<div style="position:absolute;left:128.98px;top:210.11px" class="cls_006"><span class="cls_006">• Wastewater Pumping / Collection Systems</span></div>
+<div style="position:absolute;left:157.32px;top:225.31px" class="cls_006"><span class="cls_006">o Collection Systems, both Gravity Sewer and Low Pressure</span></div>
+<div style="position:absolute;left:157.32px;top:240.51px" class="cls_006"><span class="cls_006">o Pumping Systems: Sewage Lift Stations (Dry-Well/Wet-Well</span></div>
+<div style="position:absolute;left:167.22px;top:255.71px" class="cls_006"><span class="cls_006">Configurations) and Precast Concrete, Sanitary Force mains</span></div>
+<div style="position:absolute;left:128.98px;top:270.92px" class="cls_006"><span class="cls_006">• Computer Modelling</span></div>
+<div style="position:absolute;left:70.87px;top:308.39px" class="cls_021"><span class="cls_021">Associates</span></div>
+<div style="position:absolute;left:98.91px;top:335.14px" class="cls_006"><span class="cls_006">The management of MItek Consulting Limited in a bid to protect its “baseline”</span></div>
+<div style="position:absolute;left:98.91px;top:350.34px" class="cls_006"><span class="cls_006">found it prudent enough to develop good working relationships with similar sized</span></div>
+<div style="position:absolute;left:98.91px;top:365.54px" class="cls_006"><span class="cls_006">construction and consulting companies in Uganda through partnerships to pool</span></div>
+<div style="position:absolute;left:98.91px;top:380.74px" class="cls_006"><span class="cls_006">and share technologies, human resources, facilities and ideas so as to offer the</span></div>
+<div style="position:absolute;left:98.91px;top:395.94px" class="cls_006"><span class="cls_006">best services to our clientele.</span></div>
+<div style="position:absolute;left:98.91px;top:426.35px" class="cls_006"><span class="cls_006">Our associates include;</span></div>
+<div style="position:absolute;left:109.26px;top:441.55px" class="cls_006"><span class="cls_006">•   Cyndrone Technologies Ltd.</span></div>
+<div style="position:absolute;left:109.26px;top:456.75px" class="cls_006"><span class="cls_006">•   Geotropics Ltd</span></div>
+<div style="position:absolute;left:109.26px;top:471.95px" class="cls_006"><span class="cls_006">•   Innula Consult Ltd</span></div>
+<div style="position:absolute;left:109.26px;top:487.15px" class="cls_006"><span class="cls_006">•   CIS Ltd (Center for infrastructure services)</span></div>
+<div style="position:absolute;left:109.26px;top:502.36px" class="cls_006"><span class="cls_006">•   Air Water and Earth (AWE)</span></div>
+<div style="position:absolute;left:109.26px;top:517.56px" class="cls_006"><span class="cls_006">•   Atoria Civil Lab</span></div>
+<div style="position:absolute;left:51.18px;top:535.35px" class="cls_002"><span class="cls_002">18</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:6050px;width:595px;height:595px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="508cf718-ac89-11ea-8b25-0cc47a792c0a_id_508cf718-ac89-11ea-8b25-0cc47a792c0a_files/background11.jpg" width=595 height=595></div>
+<div style="position:absolute;left:207.70px;top:265.40px" class="cls_028"><span class="cls_028">P.O Box 36801, Off Kanjokya street,</span></div>
+<div style="position:absolute;left:221.25px;top:284.59px" class="cls_028"><span class="cls_028">Kamwokya, Kampala, Uganda.</span></div>
+<div style="position:absolute;left:227.73px;top:303.79px" class="cls_028"><span class="cls_028">Tel: +256</span></div>
+<div style="position:absolute;left:228.32px;top:322.98px" class="cls_028"><span class="cls_028">Website:</span></div>
+</div>
+
+</body>
+</html>
